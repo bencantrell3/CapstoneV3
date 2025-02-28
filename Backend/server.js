@@ -37,7 +37,7 @@ app.get('/test-db', (req, res) => {
 });
 
 // Test database connection by querying a table (e.g., 'game_data')
-db.query('SELECT * FROM game LIMIT 1', (err, results) => {
+db.query('SELECT * FROM game LIMIT 1', (err, results) => {                      //Change to # of db table entries
     if (err) {
       console.error('Error retrieving data from database:', err);
     } else {
