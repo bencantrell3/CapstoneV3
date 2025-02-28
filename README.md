@@ -1,4 +1,5 @@
 INSTALLS NEEDED
+npm install react-scripts
 npm install express
 npm install mysql2
 npm install cors
